@@ -369,6 +369,9 @@ module.exports = function (
 
   console.log();
   console.log(`Success! Created ${appName} at ${appPath}`);
+
+  console.log(chalk.red('VERY IMPORTANT: This is based on a forked repository from Facebook/create-react-app c/o MACU'));
+
   console.log('Inside that directory, you can run several commands:');
   console.log();
   console.log(chalk.cyan(`  ${displayedCommand} start`));
@@ -405,7 +408,7 @@ module.exports = function (
     );
   }
   console.log();
-  console.log('Happy hacking!');
+  console.log('Happy hacking Macu!');
 };
 
 function isReactInstalled(appPackage) {
